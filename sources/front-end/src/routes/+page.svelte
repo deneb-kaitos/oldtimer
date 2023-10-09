@@ -6,7 +6,7 @@
   article {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 1fr 0.5fr;
+    grid-auto-rows: 2fr 1fr;
     grid-template-areas:
     'slogan'
     'links';

@@ -2,10 +2,10 @@
   export const prerender = true;
 </script>
 <style>
-  /* header {
-    position: sticky;
-    top: 0px;
-    height: var(--header-height);
-  } */
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
-<header>header</header>
+<header>oldtimer</header>
