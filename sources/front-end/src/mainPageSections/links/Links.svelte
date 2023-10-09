@@ -15,7 +15,7 @@
       flex-direction: column;
       align-items: center;
       flex: 1 0 auto;
-      background-color: var(--theme-black);
+      background-color: var(--theme-glacier);
       border-radius: 2px;
 
       & a {
@@ -23,7 +23,7 @@
         flex: 1 0 auto;
         justify-content: center;
         align-items: center;
-        color: var(--theme-darkest_white);
+        color: var(--theme-black);
         width: 100%;
       }
     }
