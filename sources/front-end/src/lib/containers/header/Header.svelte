@@ -2,10 +2,10 @@
   export const prerender = true;
 </script>
 <style>
-  header {
+  /* header {
     position: sticky;
     top: 0px;
     height: var(--header-height);
-  }
+  } */
 </style>
 <header>header</header>
