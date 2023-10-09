@@ -6,7 +6,7 @@
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 0.5fr;
     gap: max(1vw, 1vw);
     width: 100%;
 
