@@ -5,6 +5,7 @@
   header {
     position: sticky;
     top: 0px;
+    height: var(--header-height);
   }
 </style>
 <header>header</header>

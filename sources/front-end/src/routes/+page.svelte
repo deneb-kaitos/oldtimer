@@ -16,6 +16,7 @@
     'contacts';
 
     gap: max(4vw, 4vh);
+    height: 100%;
   }
 
   section {
