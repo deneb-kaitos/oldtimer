@@ -8,7 +8,7 @@
 
   --main-button-height: 8vh;
 
-  --header-hight: 4vh; 
+  --header-hight: 4rem; 
   --main-height: 1fr;
   --footer-height: var(--header-hight);
   --footer-background-color: transparent;
@@ -43,15 +43,19 @@
   }
 }
 
-html, body {
+/* html, body {
   display: flex;
   flex-direction: column;
   flex: 1 0 100%;
-}
+} */
 
-html, body {
+/* html, body {
   display: flex;
   flex-direction: column;
+  height: 100%;
+} */
+
+html, body {
   height: 100%;
 }
 
@@ -65,16 +69,16 @@ html {
 #app {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: var(--header-height) auto var(--footer-height);
-  justify-content: center;
-  align-items: stretch;
+  grid-template-rows: 4rem auto 4rem;
   height: 100%;
+  gap: min(1vh, 1vw);
 }
 
 main {
   display: flex;
   flex-direction: column;
   padding: 0 5vw;
+  height: 100%;
 }
 
 svg {
