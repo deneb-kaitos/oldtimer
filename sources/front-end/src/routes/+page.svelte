@@ -1,6 +1,4 @@
 <script>
-  export const prerender = true;
-
   import Slogan from '../mainPageSections/Slogan.svelte';
   import Links from '../mainPageSections/links/Links.svelte';
   import Contacts from '../mainPageSections/contacts/Contacts.svelte';
