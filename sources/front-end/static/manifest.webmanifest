@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "oldtimer",
+  "short_name": "oldtimer",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "oldtimer",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
