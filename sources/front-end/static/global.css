@@ -1,5 +1,6 @@
 :root {
   --main-font-family: "Inter var experimental";
+  --main-font-size: 17pt;
   --main-color: var(--theme-dark_gray);
   --main-background-color: var(--theme-white);
   --main-grid-gap: max(0.25vh, 0.25vw);
@@ -33,7 +34,7 @@
 @supports (font-variation-settings: normal) {
   * {
     text-decoration: none;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 400;
     font-variation-settings: "wght" 400, "slnt" 0;
     /* letter-spacing: -0.022em; */
@@ -56,26 +57,23 @@ html, body {
 
 html {
   font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
   background-color: var(--main-background-color);
   color: var(--main-color);
 }
 
 #app {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: var(--header-hight) auto ;
-  grid-template-areas:
-  'app-header'
-  'app-content';
-  /* 'app-footer'; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
 }
 
 main {
-  grid-area: app-content;
   display: flex;
   flex-direction: column;
-  gap: min(0.5vh, 0.5vw);
-  overflow-y: auto;
+  padding: 0 5vw;
 }
 
 svg {

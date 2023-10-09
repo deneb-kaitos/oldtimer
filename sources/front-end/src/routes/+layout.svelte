@@ -1,3 +1,6 @@
+<script>
+  export const prerender = true;
+</script>
 <style>
 </style>
 <main>
