@@ -40,7 +40,12 @@
 <ul>
   <li>
     <PhoneIcon />
-    <a href="tel:017638000034" target="_blank">0176 38 00 0034</a>
+    <a href="tel:017638000034" target="_blank">017638000034</a>
+  </li>
+
+  <li>
+    <PhoneIcon />
+    <a href="tel:89055585948" target="_blank">89055585948</a>
   </li>
 
   <li>
