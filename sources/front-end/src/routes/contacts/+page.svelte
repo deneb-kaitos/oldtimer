@@ -1,4 +1,11 @@
+<script>
+  export const prerender = true;
+</script>
+<style>
+  ul {
 
+  }
+</style>
 <ul>
   <li>
     <a href="tel:017638000034" target="_blank">017638000034</a>
