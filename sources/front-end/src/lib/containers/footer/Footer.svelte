@@ -4,6 +4,7 @@
 <style>
   footer {
     padding: 0 5vw;
+    display: flex;
 
   & ul {
     list-style-type: none;
