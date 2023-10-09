@@ -34,6 +34,10 @@
         height: 100%;
         align-items: center; 
       }
+
+      & a, a:visited {
+        color: var(--theme-white);
+      }
     }
   }
 </style>

@@ -1,8 +1,8 @@
 :root {
   --main-font-family: "Inter var experimental";
   --main-font-size: 17pt;
-  --main-color: var(--theme-dark_gray);
-  --main-background-color: var(--theme-white);
+  --main-color: var(--theme-white);
+  --main-background-color: var(--theme-black);
   --main-grid-gap: max(0.25vh, 0.25vw);
   --main-border-radius: max(0.25vh, 0.25vw);
 
