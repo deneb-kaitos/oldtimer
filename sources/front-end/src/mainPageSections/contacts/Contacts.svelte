@@ -33,6 +33,7 @@
         width: 100%;
         height: 100%;
         align-items: center; 
+        font-size: 0.8rem;
       }
 
       & a, a:visited {
