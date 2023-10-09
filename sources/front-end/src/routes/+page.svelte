@@ -1,17 +1,15 @@
 <script>
   import Slogan from '../mainPageSections/Slogan.svelte';
   import Links from '../mainPageSections/links/Links.svelte';
-  import Contacts from '../mainPageSections/contacts/Contacts.svelte';
 </script>
 <style>
   article {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 1fr;
+    grid-auto-rows: 1fr 0.5fr;
     grid-template-areas:
     'slogan'
-    'links'
-    'contacts';
+    'links';
 
     gap: max(4vw, 4vh);
     height: 100%;
@@ -29,10 +27,6 @@
   #links {
     grid-area: links;
   }
-
-  #contacts {
-    grid-area: contacts;
-  }
 </style>
 
 <article>
@@ -41,8 +35,5 @@
   </section>
   <section id="links">
     <Links />
-  </section>
-  <section id="contacts">
-    <Contacts />
   </section>
 </article>
