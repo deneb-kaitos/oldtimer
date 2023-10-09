@@ -1,47 +1,53 @@
 <script>
   export const prerender = true;
-  import PhoneIcon from "$lib/icons/PhoneIcon.svelte";
-  import MailIcon from "$lib/icons/MailIcon.svelte";
 </script>
 <style>
   footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 1fr;
+    padding: 0 5vw;
 
-    & div {
+  & ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: max(1vw, 1vh);
+    flex: 1 0 auto;
+
+    & li {
       display: flex;
-      flex: 1 0 auto;
-      justify-content: center;
+      gap: min(1vh, 1vw);
       align-items: center;
+      font-size: calc(var(--main-font-size) - 4pt);
 
-      & a, a > svg {
+      & a {
         display: flex;
+        flex: 1 0 auto;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        align-items: center; 
+        /* font-size: 0.8rem; */
       }
 
-      & a > svg {
-        width: var(--main-font-size);
+      & a, a:visited {
         color: var(--theme-white);
       }
     }
   }
+  }
 </style>
 <footer>
-  <!-- <div>
-    <a href="tel:017638000034" target="_blank">
-      <PhoneIcon />
-    </a>
-  </div>
+<ul>
+  <li>
+    <a href="tel:017638000034" target="_blank">017638000034</a>
+  </li>
 
-  <div>
-    <a href="tel:89055585948" target="_blank">
-      <PhoneIcon />
-    </a>
-  </div>
+  <li>
+    <a href="tel:89055585948" target="_blank">89055585948</a>
+  </li>
 
-  <div>
-    <a href="mailto:andrey.paymushin@gmail.com?subject=[business inquiry]" target="_blank">
-      <MailIcon />
-    </a>
-  </div> -->
+  <li>
+    <a href="mailto:andrey.paymushin@gmail.com?subject=[business inquiry]" target="_blank">andrey.paymushin@gmail.com</a>
+  </li>
+</ul>
 </footer>

@@ -33,7 +33,7 @@
     }
   }
 </style>
-<ul>
+<!-- <ul>
   <li>
     <a href="tel:017638000034" target="_blank">017638000034</a>
   </li>
@@ -45,4 +45,4 @@
   <li>
     <a href="mailto:andrey.paymushin@gmail.com?subject=[business inquiry]" target="_blank">andrey.paymushin@gmail.com</a>
   </li>
-</ul>
+</ul> -->
