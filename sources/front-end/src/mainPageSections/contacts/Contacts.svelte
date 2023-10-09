@@ -30,6 +30,9 @@
         display: flex;
         flex: 1 0 auto;
         justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        align-items: center; 
       }
     }
   }
@@ -37,11 +40,11 @@
 <ul>
   <li>
     <PhoneIcon />
-    <a href="tel:017638000034">0176 38 00 0034</a>
+    <a href="tel:017638000034" target="_blank">0176 38 00 0034</a>
   </li>
 
   <li>
     <MailIcon />
-    <a href="mailto:andrey.paymushin@gmail.com">andrey.paymushin@gmail.com</a>
+    <a href="mailto:andrey.paymushin@gmail.com?subject=[business inquiry]" target="_blank">andrey.paymushin@gmail.com</a>
   </li>
 </ul>
