@@ -16,6 +16,7 @@
         width: 100%;
         height: 100%;
         align-items: center; 
+        font-size: calc(var(--main-font-size) - 4pt);
       }
   
       & a, a:visited {
