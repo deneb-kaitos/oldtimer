@@ -3,12 +3,31 @@
 </script>
 <style>
   ul {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1vh;
 
+    & li {
+      display: flex;
+      height: 2rem;
+      border-bottom: 1px solid var(--theme-darkest_white);
+
+      & a {
+        display: flex;
+        flex: 1 0 auto;
+        justify-content: flex-end;
+        align-items: center; 
+        font-size: calc(var(--main-font-size) - 4pt);
+      }
+    }
   }
 </style>
 <ul>
   <li>
-    <a href="tel:017638000034" target="_blank">017638000034</a>
+    <a href="tel:+4917638000034" target="_blank">+4917638000034</a>
   </li>
 
   <li>
