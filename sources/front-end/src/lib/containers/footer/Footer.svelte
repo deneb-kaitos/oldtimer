@@ -18,10 +18,6 @@
         align-items: center; 
         font-size: calc(var(--main-font-size) - 4pt);
       }
-  
-      & a, a:visited {
-        color: var(--theme-white);
-      }
   }
 </style>
 <footer>
