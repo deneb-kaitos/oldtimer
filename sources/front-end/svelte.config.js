@@ -15,6 +15,7 @@ const config = {
       hooks: {
         server: 'src/files/hooks/server.mjs',
       },
+      serviceWorker: 'src/files/sw/service-worker.mjs',
     },
     env: {
       dir: './environments'
