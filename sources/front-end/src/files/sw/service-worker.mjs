@@ -4,6 +4,10 @@ import {
   LocalizationStore,
 } from '$lib/stores/localization/localization.store.mjs';
 
+const unsubscribe = LocalizationStore.subscribe((value) => {
+  console.log('sw:LocalizationStore:', value);
+});
+
 // Create a unique cache name for this deployment
 const CACHE = `cache-${version}`;
 
@@ -36,8 +40,6 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
 	// ignore POST requests etc
 	if (event.request.method !== 'GET') return;
-
-  console.log('fetch:', event.request.url);
 
 	async function respond() {
 		const url = new URL(event.request.url);
