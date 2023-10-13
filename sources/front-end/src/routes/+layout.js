@@ -1,6 +1,15 @@
 import {
+  LocalizationStore,
+} from '$lib/stores/localization/localization.store.mjs';
+import {
   loadTranslations,
 } from '$lib/translations/translations.mjs';
+
+let loc;
+
+LocalizationStore.subscribe((currentLocalization) => {
+  loc = currentLocalization;
+})
 
 /** @type {import('@sveltejs/kit').Load} */
 export const load = async({ url }) => {
@@ -8,7 +17,7 @@ export const load = async({ url }) => {
     pathname,
   } = url;
 
-  const initLocale = 'en';
+  const initLocale = loc || 'en'; 
   
   await loadTranslations(initLocale, pathname);
 
