@@ -10,6 +10,14 @@ const config = ({
       loader: async() => (
         await import ('./en/about.json')
       ).default,
+    },
+    {
+      locale: 'ru',
+      key: 'about',
+      routes: ['/about'],
+      loader: async() => (
+        await import ('./ru/about.json')
+      ).default,
     }
   ],
 }); 

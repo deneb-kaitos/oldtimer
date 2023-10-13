@@ -3,4 +3,4 @@ export const LANGUAGES = Object.freeze({
   ru: 'ru',
 });
 
-export const DEFAULT_LANGUAGE = 'en';
+export const DEFAULT_LANGUAGE = 'ru';
